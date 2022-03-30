@@ -6,7 +6,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<style>
+.w3-button {
+    color: #fdf5e6;
+    background-color: #040000;
+    padding: 8px 16px;
+}
+</style>
 <body>
 
 <!-- Navigation -->
@@ -34,7 +40,15 @@
 </nav>
 
 <!-- Slide Show -->
-<section>
+<section style="position: relative;">
+  <div class="w3-panel" style="width:50%;position: absolute;top: 181px;left: calc(50% - 220px);">
+  
+    <button class="w3-button w3-border w3-block w3-border-gray w3-round-large" style=margin:5px;">Button1</button>
+    <button class="w3-button w3-border w3-block w3-border-gray w3-round-large" style=margin:5px;>Button2</button>
+    <button class="w3-button w3-border w3-block w3-border-gray w3-round-large" style=margin:5px;>Button3</button>
+                                                                              
+  </div>
+  
   <img class="mySlides" src="https://drsax.github.io/web/img/webxophone.jpg"
   style="width:100%">
   <img class="mySlides" src="https://drsax.github.io/web/img/dreffect.jpg"
